@@ -11,5 +11,5 @@ Then contact MicroTweet to start your own Twitter-verse today!<br><br><br>
   <li>Employees respond with expert advice.</li>
   <li>Peer-to-peer help</li>
 </ul>
-    This web app includes tests for proper functionality.<br>
-    Refer to <em>spec/</em> for more details.
+This web app includes tests for proper functionality.<br>
+Refer to <em>spec/</em> for more details.
