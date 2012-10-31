@@ -1,0 +1,69 @@
+@font-face{
+    font-family: Gcursive;
+    src: url("../fonts/GCursiv2.ttf");
+}
+
+@font-face{
+    font-family: GcursiveIE;
+    src: url("../fonts/GCursiv2.eot");
+}
+
+body{
+    border-top: 10px #8CC84B solid;
+    padding-top: 5%;
+    margin: 0;
+    background: #46483E;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+h1 {
+    font-family: Gcursive, GcursiveIE, Times, serif;
+}
+
+.center {
+    text-align: center;
+}
+
+#logo {
+    float: left;
+    margin-right: 10px;
+    font-size: 170%;
+    /*text-transform: uppercase;*/
+    letter-spacing: -1px;
+    padding-top: 9px;
+    font-weight: bold;
+    line-height: 1;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+footer {
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 8px #8CC84B solid;
+    small {
+        float: left;
+    }
+    ul {
+        float: right;
+        list-style: none;
+        li {
+            float: left;
+            margin-left: 10px;
+        }
+    }
+}
+
+.debug_dump {
+    background-color: #AAA
+}
+
+/* forms */
+#error_explanation {
+    color: #f55;
+    ul {
+        list-style: none;
+        margin: 0 0 18px 0;
+    }
+}
+
